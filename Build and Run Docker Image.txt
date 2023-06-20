@@ -1,0 +1,6 @@
+
+Running App:
+=============
+
+docker build -t detector .
+docker run -it -v "$(pwd)":"$(pwd)" detector
