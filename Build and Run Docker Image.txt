@@ -4,3 +4,4 @@ Running App:
 
 docker build -t detector .
 docker run -it -v logs:/logs detector
+docker run -it -v logs:/logs bash
