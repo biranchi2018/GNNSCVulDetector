@@ -2,6 +2,6 @@
 Running App:
 =============
 
-docker build -t detector .
-docker run -it -v logs:/logs detector
+docker build -t gnnscvuldetector .
+docker run -it -v logs:/logs gnnscvuldetector
 docker run -it -v logs:/logs bash
