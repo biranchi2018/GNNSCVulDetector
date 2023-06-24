@@ -3,5 +3,15 @@ Running App:
 =============
 
 docker build -t gnnscvuldetector .
-docker run -it -v logs:/logs gnnscvuldetector
-docker run -it -v logs:/logs bash
+docker run -it -v "$(pwd)/logs":/logs gnnscvuldetector
+docker run -it -v "$(pwd)/logs":/logs bash
+
+
+
+Type of Vulnerability Detection:
+=================================
+
+reentrancy (RE)
+timestamp dependency (TP)
+
+
